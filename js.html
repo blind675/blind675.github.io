@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #484848;
+        color: #fff;
+        margin-top: 200px;
+      }
+
+      div {
+        height: 250px;
+        width: 400px;
+        margin: auto;
+        background-color: #116699;
+        box-shadow: 5px 10px #000000;
+      }
+
+      h1 {
+        padding: 20px;
+        text-align: center;
+        font-size: 32px;
+        background-color: #8db8d3;
+      }
+
+      p {
+        margin: 30px;
+        font-style: italic;
+        text-align: center;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Salut lume</h1>
+
+      <p>Apasa pe buton, vezi ce se intampla :)</p>
+
+      <button onclick="arataOAlerta()">Apasa aici</button>
+    </div>
+
+    <script>
+      var variabial1 = 4;
+      var variablai2 = 7;
+
+      console.log("Pagina sa incarcat");
+
+      function arataOAlerta() {
+        alert(
+          "Acesta este un dialog de alerta! variabial1 + variablai2 = " +
+            (variabial1 + variablai2)
+        );
+      }
+    </script>
+  </body>
+</html>
